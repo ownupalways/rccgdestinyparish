@@ -1,0 +1,1052 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  font-size: 14px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  user-select: none;
+}
+
+body{
+  background-color: rgb(63, 58, 92);
+  background-blend-mode: hue;
+  background-image: url("images/faithinGod.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* YOUTH MATTER */
+
+
+
+@media screen and (max-width: 800px){
+  body{
+    background-image: url("images/faithinGod.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+}
+
+/*Logo Affair*/
+.head1{
+ float: right;
+ margin-top: 15px;
+}
+
+.logo{
+  border-radius: 50px;
+  float: right;
+  margin-right: 40px;
+}
+
+.ds{
+  color: white;
+  margin: 5px;
+}
+/*Sidebar navigation*/
+.sidebar{
+  position:fixed;
+  left:-250px;
+  width: 250px;
+  height:100%;
+  background:#0a861d;
+  user-select: none;
+  transition: all .5s ease;
+  z-index: 1;
+}
+
+.side{
+  opacity: 0.9;
+}
+
+.sidebar ul a {
+  display: block;
+  height: 80%;
+  width: 80%;
+  line-height: 65px;
+  font-size: 20px;
+  color:white;
+  padding-left:15px;
+  box-shadow: border-box;
+  transition: all .4s;
+}
+
+.u .l:hover a{
+  padding-left:52px;
+  box-shadow:2px 2px 4px;
+  transition: all;
+}
+
+.sidebar ul a i {
+  margin-right:16px;
+}
+  
+.sidebar ul{
+  margin-right: 5px;
+}
+
+.sidebar header{
+  font-size: 22px;
+  color:white;
+  text-align:center;
+  line-height:70px;
+}
+
+#check{
+  display: none;
+}
+
+label #btn, label #cancel{
+  position: absolute;
+  cursor: pointer;
+  background: #042331;
+  border-radius: 3px;
+}
+
+label #btn{
+  left: 40px;
+  top:20px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all;
+}
+
+@media screen and (max-width: 800px){
+  label #btn{
+    left: 5px;
+    top:10px;
+    font-size: 30px;
+    color: white;
+    padding: 6px 12px;
+    transition: all;
+  }
+
+  .logo{
+    top: 0px;
+    margin-top: 0px;
+  }
+    
+  .head1{
+   margin-left: 5px;
+  }
+}
+
+label #cancel{
+  position: fixed;
+  z-index: 1111;
+  left: -195px;
+  top:5px;
+  font-size:20px;
+  color:white;
+  padding: 7px 10px;
+  transition: all 0.5s;
+}
+
+#check:checked ~ .sidebar{
+  left:0;
+}
+
+#check:checked ~label #btn{
+  left:250px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#check:checked ~label #cancel{
+  left: 205px;
+}
+
+.A a i{
+  font-size: 30px;
+}
+
+.A a i:hover{
+  color:whitesmoke;
+}
+
+ul .A{
+  padding-right: 20px;
+  margin: 0px;
+}
+
+.home{
+  font-family: OptimusPrinceps;
+  font-weight: bold;
+  font-size: 20px;
+  color:white;
+  font-weight: bold;
+}
+
+.fa-home{
+    padding-right: 20px;
+}
+
+.A{
+  padding-right: 0;
+  margin-right: 5px
+}
+
+.into{
+  margin:5px 5px;
+}
+  
+/*Body Column partern*/
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row_body{
+  background: rgba(225, 225, 225, 0.9);
+  line-height: 0.5;
+  background: transparent;
+}
+
+.column {
+  float: left;
+  padding:10px;
+  margin:5px;
+}
+
+.column.side{
+  width: 18%;
+}
+
+.column.middle{
+  width: 60%;
+  background-color:  rgba(225, 225, 225, 0.9);
+  background: transparent;
+}
+
+.tag_right{
+  float: right;
+  position: top;
+}
+
+.card{
+  display: inline-block;
+  width: 42%;
+  height: 0 auto;
+  padding:10px;
+  margin: 13px;
+  border-radius: 1em;
+  background-color: #ccc;
+  background:rgba(225, 225, 225, 0.1);
+}
+
+.card:hover{
+  border: 1px solid;
+}
+
+.title{
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  color:cyan;
+}
+
+div{
+  color: antiquewhite;
+}
+
+.title:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.close:hover{
+  cursor: pointer;
+  background: rgb(244, 245, 245);
+  color: rgb(253, 4, 4);
+  font-weight: bold;
+}
+
+.close{
+  color: honeydew;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  float: right;
+  border-radius: 4px;
+  right: 0;
+}
+
+.btn{
+  line-height: 1.6;
+}
+
+.batch{
+  padding-left: 20px;
+  display: none;
+}
+
+.payment{
+  margin-left: 50px;
+  display: none;
+}
+
+.zone{
+  display: none;
+}
+
+.parish{
+  display: none;
+}
+
+.area{
+  display: none;
+}
+
+.region{
+  display: none;
+}
+
+.car1{
+  position: relative;
+  animation: car1 2s;
+  animation-delay: 2s;
+}
+
+.car2{
+  position: relative;
+  animation: car2 2s;
+  animation-delay: 3s;
+}
+
+.car3{
+  position: relative;
+  animation: car3 2s;
+  animation-delay: 4s;
+}
+
+@media screen and (max-width:800px){
+  .head1{
+    padding-right: 15px;
+  }
+  .column.middle{
+    width:100%;
+  }
+  .column .side{
+    width: 100%;
+    overflow-wrap: break-word;
+    margin:5px;
+  }
+
+  .card{
+    width:95%;
+    margin-left: 3px;
+  }
+    
+  .in:hover a{
+    color: white;
+    font-family: Monotype Corsiva;
+  }
+    
+  .head1{
+    margin-top: 20px;
+  }
+  
+  .offering, .tithe, .welfare, .donation{
+    margin: 5px;
+    width: 80%;
+    height: 0 auto;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 20px;
+    background-color: white;
+    color:green;
+    border:1.5px solid lightgreen;
+    border-radius: 4px;
+  }
+  .batch{
+    display: none;
+  }
+  .batch ul .btn{
+    margin-left: 0px;
+  }
+
+  .payment{
+    display: none;
+  }
+
+  .zone{
+    display: none;
+  }
+  .parish{
+    display: none;
+  }
+  .area{
+    display: none;
+  }
+  .region{
+    display: none;
+  }
+}
+
+.fa{
+  font-size: 100px;
+}
+/*ABOUT.HTML CONTENT*/
+.About{
+  margin-top: 20%;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+  line-height: 1;
+  text-align: justify;
+  font-family: Cormorant Upright;
+  }
+
+.About strong{
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  word-spacing: 6px;
+}
+.cool{
+  color: rgb(21, 32, 192);
+  font-size: 10px;
+}
+
+.cool:hover{
+  cursor: pointer;
+  color:hotpink;
+}
+.ishola{
+  border-radius: 4px;
+  display: none;
+}
+
+hr{
+  width: 50%;
+  margin: 0% 0% 25% 25%;
+}
+.updating {
+    margin-top: 100px;
+    font-size: 10em;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+
+@media screen and (max-width: 800px){
+  .updating {
+    margin-top: 100px;
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .About{
+    margin-top: 100px;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  hr{
+    width: 150px;
+  }
+
+  .title{
+    font-size:20px;
+    padding: 0;
+  }
+}
+
+/*middle content design*/
+.offering, .tithe, .welfare, .donation{
+  margin: 5px;
+  width: 120px;
+  height: 0 auto;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 20px;
+  background-color: white;
+  color:green;
+  border:1.5px solid lightgreen;
+  border-radius: 4px;
+}
+
+.offering:hover {
+  background: green;
+}
+
+.in{
+  font-family: Californian FB;
+}
+.in:hover a{
+  color: white;
+  font-size: 15px;
+  font-weight: 40px;
+  font-family: Californian FB;
+}
+
+.tithe:hover {
+  background: green;
+}
+
+.welfare:hover {
+  background-color: green;
+}
+
+.donation:hover {
+  background: green;
+}
+
+.columnCont.side-cont{
+  width: 100%;
+}
+.columnCont.middle-cont{
+  width: 100%;
+  margin: 0px;
+}
+
+.cont1{
+  width:80%;
+}
+
+.cont{
+  width:100%;
+  margin-left: 10px;
+}
+
+.contCard{
+    width: 80%;
+  }
+
+.first{
+  margin-left:10px;
+}
+
+.services{
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-family:Lucida Handwriting;
+  overflow-wrap: break-word;
+  line-height: 2;
+}
+
+.thanksgiving{
+  padding-left: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+  overflow-wrap: break-word;
+  line-height: 1;
+  text-align: center;
+  font-family: OptimusPrinceps;
+}
+
+.alone{
+  margin-top: 0px;
+}
+
+ /*Responsiveness for Services Page*/
+@media screen and (max-width: 800px){
+.column_services .middle_services{
+  width: auto;
+  margin: 10px 0 0 10px
+}
+.services {
+  margin-top: 50px;
+  overflow-wrap: break-word;
+  justify-content: center;
+  }
+}
+
+/*CONTACT.HTML style*/
+.row-Cont::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.columnCont{
+    float: left;
+    margin:20px;
+}
+.columnCont.side-cont{
+    width: 10%;
+}
+.columnCont.middle-cont{
+    width: 65%;
+    padding: 10px;
+}
+.contCard{
+    width: 200px;
+    border: 1px solid #1e2c52;
+    border-radius: 4px;
+}
+.profile{
+  text-align: center;
+  font-size: 15px;
+}
+.contCard{
+    width:20%;
+    display: inline-block;
+    margin:15px;
+}
+
+.cont1{
+    width:35%;
+    display: inline-block;
+    border:1px solid black;
+    margin:20px;
+}
+
+.first{
+  margin-left:140px;
+}
+.space{
+  margin-bottom: 20px;
+}
+
+
+/*SERVICE.HTML*/
+.Serpan{
+  margin-bottom: 10px;
+  background-color: rgb(63, 58, 92);
+}
+.services{
+  background-color: rgb(63, 58, 92);
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-family:Lucida Handwriting;
+  color: white;
+  line-height: 1.5;
+}
+.topservices{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.thanksgiving-alone{
+  background-color: rgb(63, 58, 92);
+}
+.activities-container1{
+  background: rgba(221, 230, 217, 0.5);
+  padding-top: 20px;
+  border-radius: 3px;
+}
+
+.activities-container2{
+  background: rgba(22, 81, 209, 0.5);
+  padding-top: 20px;
+  border-radius: 3px;
+}
+.thanksgiving-service2{
+  text-align: justify;
+  line-height: 1.5;
+  padding: 20px;
+  font-weight: bold;
+  color: beige;
+}
+.thanksgiving-service3{
+  color: white;
+  line-height: 1.5;
+  text-align: justify;
+}
+.activities-container3{
+  background: rgba(68, 110, 23, 0.5);
+  padding-top: 20px;
+  border-radius: 3px;
+}
+.thanksgiving-service, .child-dedication{
+  text-align: justify;
+  line-height: 1.5;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.alone{
+  border-bottom:1px solid rgb(180, 191, 199);
+  font-family: Cormorant Upright;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 40px;
+}
+
+.thanksgiving{
+  padding-left: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.ser{
+  width: 80%;
+  text-align: center;
+  line-height: 0.5;
+}
+
+/*Youth Card Link*/
+.youth a i{
+  padding-right: 10px;
+  font-size: 15px;
+  color: white;
+}
+.youth i{
+  padding-right: 10px;
+  font-size: 15px;
+  color: white;
+}
+.youth a i:hover{
+  color: blue;
+}
+.youth > a:hover{
+  color: blue;
+}
+.youth a i:hover{
+  color: blue;
+}
+.youth a{
+  color: white;
+  font-size: 15px;
+}
+@media screen and (max-width: 786px){
+  .column_services.middle_services{
+    width: 100%;
+  }
+  .services{
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+/*Youth Modal Form*/
+input[type=text], input[type=password]{
+  display: inline-block;
+  width: 90%;
+  padding: 15px;
+  margin:5px 0 22px 0;
+  border: none;
+  background:darkgrey;
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: cambria;
+}
+input[type=text]:focus, input[type=password]:focus{
+  background-color: #f1f1f1;
+  color:black;
+}
+h1{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+#ModalForm{
+  display:none;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  overflow: auto;
+  background-color: #474e5d;
+  background: rgba(225, 225, 225, 0.5);
+}
+.youth-container{
+  padding:30px;
+  align-content: center;
+  width: 30%;
+  height: auto;
+  background-color: rgb(63, 83, 50);
+  border-radius: 8px;
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  transform:translate(-50%, -50%);
+}
+
+.YouthGateTop, {
+  text-align: center;
+}
+
+.YouthGate{
+ text-align: center;
+}
+@media screen and (max-width: 786px){
+  .youth-container{
+  padding:10px;
+  width: 90%;
+  }
+  h1{
+    margin-right:20px;
+  }
+}
+
+.Remember{
+  padding-left: 15px;
+}
+
+label b, label span{
+  color: white;
+}
+.Privacy{
+  color: pink;
+}
+
+.youthModal h1{
+  color: white;
+}
+.closeForm{
+  color: honeydew;
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+  float: right;
+  border-radius: 4px;
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+}
+
+.youth-container{
+  margin-top: 40px;
+}
+
+.closeForm:hover{
+  cursor: pointer;
+  background: rgb(244, 245, 245);
+  color: rgb(253, 4, 4);
+  font-weight: bold;
+}
+
+/*Footer Section design*/
+footer{
+  background-color: rgb(167, 19, 147);
+  background:rgba(95, 54, 88, 0.8);
+  bottom: 0;
+  margin-bottom: 0;
+}
+.footer-container{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.footer-item{
+  flex: 1;
+  margin: 10px;
+}
+.footer-item, .hed, .fot{
+  margin-left: 5px;
+}
+.fot{
+  color: white;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+.foot2:hover{
+  color:rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight:bold;
+}
+
+.hed{
+  color: rgb(247, 161, 2);
+  font-size: 1.5rem;
+}
+
+.company{
+  color: white;
+  float: right;
+  margin-top: 170px;
+}
+
+.move{
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 800px){
+  .footer-container{
+    display:flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+  footer{
+    width: 100%;
+  }
+}
+.church a{
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  margin:10px 30px;
+  color: white;
+}
+.FormOnecontent{
+  border-radius:10px;
+  width: 30%; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.FormOnecontent .letter{
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.FormOnecontent .letter2{
+  font-size: 15px;
+}
+input[type=text], input[type=password], input[type=password] {
+  padding: 10px;
+  margin: 0;
+  border: 1px slategrey solid;
+  border-radius: 5px;
+  width: 98%;
+}
+
+/*Login Communication*/
+
+/* set a style for all button*/
+
+button{
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 8px;
+}
+
+.tandc{
+  text-align: center;
+  line-height: 0.5;
+  padding: 15px;
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 10px;
+}
+
+.TC{
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+.Nextpage{
+  text-align: center;
+}
+/*Float cancel and Sign up buttons and add an equal width*/
+.cancelbtny, .btny{
+  width: 180px;
+  font-size: 15px;
+  font-family: OptimusPrinceps;
+  font-weight: bolder;
+  background:transparent;
+}
+
+.cancelbtnyLongin, .btnyLogin{
+  width: 120px;
+  font-size: 15px;
+  font-family: OptimusPrinceps;
+  font-weight: bolder;
+  background:transparent;
+}
+.btny, .btnyLogin{
+  float:left;
+}
+.cancelbtny, .cancelbtnyLongin{
+  float: right;
+}
+
+.btnyLogin:hover{
+  background-color: rgb(8, 151, 8);
+  color: white;
+}
+.btny:hover {
+  background-color: rgb(8, 151, 8);
+  color: white;
+}
+.cancelbtnyLongin:hover{
+  background-color:#ee0f0f;
+  color: white;
+  border: white 2px solid;
+}
+.cancelbtny:hover{
+  background-color: #ee0f0f;
+  color: white;
+}
+.clearfix{
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .FormOnecontent{
+      border-radius:10px;
+      width: 90%; 
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50, -50%%);
+    }
+
+    .church a{
+      float: right;
+      right: 0;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10x;
+    }
+
+    input[type=text], input[type=password], input[type=password] {
+      padding: 10px;
+      margin: 0;
+      border: 1px slategrey solid;
+      border-radius: 5px;
+      width: 98%;
+    }
+
+    /*Login Communication*/
+
+    /* set a style for all button*/
+
+    button.btny:hover {
+      background-color: rgb(8, 151, 8);
+      color: white;
+    }
+
+    form {
+      padding-left: 10px;
+    }
+
+    .TC a{
+      font-size: 20px;
+      overflow-wrap: break-word;
+    }
+    /*Float cancel and Sign up buttons and add an equal width*/
+    .cancelbtny, .btny{
+      width: 100px;
+      font-size: 15px;
+      font-family: OptimusPrinceps;
+      font-weight: bolder;
+    }
+
+    .cancelbtnyLongin, .btnyLogin{
+    width: 100px;
+    font-size: 15px;
+    font-family: OptimusPrinceps;
+    font-weight: bolder;
+    background:transparent;
+  }
+  .Nextpage{
+    padding-left: 0;
+  }
+}
