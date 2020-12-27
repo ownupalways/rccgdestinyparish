@@ -1009,15 +1009,6 @@ form {
 }
 
 @media screen and (max-width: 800px){
-    .FormOnecontent{
-      border-radius:10px;
-      width: 90%; 
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50, -50%%);
-    }
-
     .church a{
       float: right;
       right: 0;
