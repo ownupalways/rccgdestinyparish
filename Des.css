@@ -44,6 +44,7 @@ body{
 
 .ds{
   color: white;
+  margin-left: 20px;
 }
 /*Sidebar navigation*/
 .sidebar{
@@ -927,6 +928,8 @@ input[type=text], input[type=password], input[type=password] {
     .FormOnecontent{
     width: 100%; 
     height: auto;
+    top: 0;
+    left: 0;
   }
 }
 /*Login Communication*/
