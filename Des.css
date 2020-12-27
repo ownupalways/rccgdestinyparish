@@ -10,9 +10,8 @@
 }
 
 body{
-  background-color: rgb(63, 58, 92);
   background-blend-mode: hue;
-  background-image: url("images/faithinGod.jpg");
+  background-image: url("faithinGod.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -24,7 +23,7 @@ body{
 
 @media screen and (max-width: 800px){
   body{
-    background-image: url("images/faithinGod.jpg");
+    background-image: url("faithinGod.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -57,6 +56,7 @@ body{
   user-select: none;
   transition: all .5s ease;
   z-index: 1;
+  overflow-wrap: all;
 }
 
 .side{
@@ -66,7 +66,7 @@ body{
 .sidebar ul a {
   display: block;
   height: 80%;
-  width: 80%;
+  width: 100%;
   line-height: 65px;
   font-size: 20px;
   color:white;
@@ -76,7 +76,7 @@ body{
 }
 
 .u .l:hover a{
-  padding-left:52px;
+  padding-left:65px;
   box-shadow:2px 2px 4px;
   transition: all;
 }
@@ -274,7 +274,7 @@ div{
   width: 30px;
   text-align: center;
   float: right;
-  border-radius: 4px;
+  border-radius: 50%;
   right: 0;
 }
 
@@ -766,12 +766,16 @@ h1{
 .closemodal{
   float: right;
   font-weight: bolder;
-  font-size: 50px;
-  border-radius: 50%;
+  font-size: 35px;
+  border-radius: 25%;
+  padding-right: 5px;
+  margin-top: 0em;
+  color: white;
 }
 
 .closemodal:hover{
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color:  rgb(215, 213, 230);
+   border-radius: 8px;
 }
 .YouthGateTop, {
   text-align: center;
@@ -920,7 +924,24 @@ input[type=text], input[type=password], input[type=password] {
   border-radius: 5px;
   width: 98%;
 }
+@media screen and (max-width: 800px){
+    .FormOnecontent{
+    border-radius:10px;
+    width: 100%; 
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
 
+  .FormOnecontent .letter{
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+
+  .FormOnecontent .letter2{
+    font-size: 15px;
+  }
+}
 /*Login Communication*/
 
 /* set a style for all button*/
