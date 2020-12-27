@@ -763,6 +763,16 @@ h1{
   transform:translate(-50%, -50%);
 }
 
+.closemodal{
+  float: right;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.closemodal:hover{
+  background-color: rgb(0, 0, 0, 0.5);
+}
 .YouthGateTop, {
   text-align: center;
 }

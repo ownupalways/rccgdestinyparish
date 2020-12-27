@@ -1,8 +1,14 @@
         //fetching Modal Box
         var modal = document.getElementById('ModalForm');
-
+        var btn = document.getElementById('btnto');
+        var closewin = document.getElementById('close');
         //when user click anywhere utside the modal box, it will close
-
+        closewin.onclick =function(){
+            style.display = "none";
+        }
+        btn.onclick = function() {
+            modal.style.display= "block";
+        }
         window.onclick = function(event) {
             if (event.target == modal) {
                 modal.style.display= "none";
