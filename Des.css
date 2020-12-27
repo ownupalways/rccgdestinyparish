@@ -925,20 +925,7 @@ input[type=text], input[type=password], input[type=password] {
 }
 @media screen and (max-width: 800px){
     .FormOnecontent{
-    border-radius:10px;
     width: 100%; 
-    position: absolute;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-  }
-
-  .FormOnecontent .letter{
-    font-size: 30px;
-    padding-bottom: 15px;
-  }
-
-  .FormOnecontent .letter2{
-    font-size: 15px;
   }
 }
 /*Login Communication*/
