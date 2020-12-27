@@ -32,8 +32,9 @@ body{
 
 /*Logo Affair*/
 .head1{
+  width: 30px;
  float: right;
- margin-top: 15px;
+ margin-top: 5px;
 }
 
 .logo{
@@ -755,7 +756,7 @@ h1{
   align-content: center;
   width: 30%;
   height: auto;
-  background-color: rgb(98, 156, 196);
+  background-color:  rgb(19, 67, 224);
   border-radius: 8px;
   top: 30%;
   left: 50%;
