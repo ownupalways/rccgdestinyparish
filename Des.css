@@ -32,9 +32,8 @@ body{
 
 /*Logo Affair*/
 .head1{
-  width: 30px;
  float: right;
- margin-top: 5px;
+ margin: 0 0 15px 5px;
 }
 
 .logo{
