@@ -14,13 +14,10 @@ body{
   background-image: url("faithinGod.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size:cover;
 }
 
 /* YOUTH MATTER */
-
-
-
 @media screen and (max-width: 800px){
   body{
     background-image: url("faithinGod.jpg");
@@ -888,15 +885,13 @@ footer{
     flex-wrap: wrap;
     font-size: 10px;
   }
-
-  .FormOnecontent{
-    width: 100%; 
-    height: auto;
-  }
   footer{
     width: 100%;
   }
 }
+
+
+/*Login Communication*/
 .church a{
   float: right;
   font-size: 30px;
@@ -904,23 +899,42 @@ footer{
   margin:10px 30px;
   color: white;
 }
+.formbodylogin{
+  margin-bottom: 40%;
+}
+.formbodysignup{
+  margin-bottom: 60%;
+}
 .FormOnecontent{
   border-radius:10px;
+}
+
+.formfill{
   width: 30%; 
+  height: auto;
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
   z-index: 2;
 }
 
+.YouthHome{
+  float:right;
+  font-size: 30px;
+}
+
+.YouthHome: hover{
+  color: #f1f1f1;
+}
 .FormOnecontent .letter{
   font-size: 30px;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 .FormOnecontent .letter2{
   font-size: 15px;
+  text-align: center;
 }
 input[type=text], input[type=password], input[type=password] {
   padding: 10px;
@@ -929,10 +943,6 @@ input[type=text], input[type=password], input[type=password] {
   border-radius: 5px;
   width: 98%;
 }
-
-
-/*Login Communication*/
-
 /* set a style for all button*/
 
 button{
@@ -959,6 +969,7 @@ form {
   font-size: 40px;
   font-weight: bolder;
   padding: 15px;
+  text-align: center;
 }
 
 .Nextpage{
@@ -1008,7 +1019,14 @@ form {
   padding-right: 10px;
 }
 
+
 @media screen and (max-width: 800px){
+  .formbodylogin{
+    margin-bottom: 180%;
+  }
+  .formbodysignup{
+    margin-bottom: 250%;
+  }
     .church a{
       float: right;
       right: 0;
@@ -1016,7 +1034,13 @@ form {
       font-weight: bold;
       margin-top: 10x;
     }
-
+    .formfill{
+      margin-left:5px;
+      width: 95%; 
+      height: auto;
+      position: absolute;
+      z-index: 2;
+    }
     input[type=text], input[type=password], input[type=password] {
       padding: 10px;
       margin: 0;

@@ -3,37 +3,46 @@
 	<head>
 		<title>Youth </title>
 		<script src="Size.js"></script>
-		<link rel="stylesheet" type="text/css" href="Des.css">
+		<link rel="stylesheet" href="Des.css">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Monotype Corsiva' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Cambria' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=OptimusPrinceps' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Californian FB' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Lucida Handwriting' rel='stylesheet'>
 	</head>
-	<body>
-		<form class="FormOnecontent" action="action_page.php" style="border: 2px solid #ccc">
-			<h1 align="center" class="letter">Sign Up</h1>
-			<p align="center" class="letter2">Please fill this form to create an account.</p>	
-			<label for="Email"><b>Email</b></label><br>
-			<input type="text" placeholder="Enter Email" name="Email" required><br><br>
-			<label for="psw"><b>Password</b></label><br>
-			<input type="Password"  placeholder="Enter Password" id="Password" name="psw" required><br><br>
-			<label for="psw-repeat"><b>Repeat Password</b></label><br>
-			<input type="Password" placeholder="Repeat Password" id="Password" name="psw-repeat" required><br><br>
-			<label>
-				<input type="checkbox" onclick="view()"> Show Password
-			</label>
-			<label style="float: right;">
-			<input type="checkbox" checked="checked" name="remember">Remember me.
-			</label><br>
-			<div class="tandc">
-				<p>By creating an account you agree to our</p>
-				<a href="#" style="color: rgb(241, 21, 21)">Terms & Conditions.</a>
-			</div>
-			<div class="Nextpage">
-				<p class="TC"><strong>Existing Member? </strong><a href="Youthlogin.html"><b>|</b>Login Here<b>|</b></a></p>
-			</div><br>
-
-			<div class="clearfix">
-				<button type="submit" class="btny">Sign Up</button>
-				<button type="button" class="cancelbtny">Cancel</button>
-			</div>
-		</form>
-		<div class="church"><a href="index.html">Return To Church</a></div>
+	<body class="formbodysignup">
+		<a class=" YouthHome" href="index.html"><i class="fas fa-home"><span class="return"> Return to Church</span></i></a>
+		<div class="formfill">
+			<form class="FormOnecontent" action="action_page.php" style="border: 2px solid #ccc">
+				<h1 class="letter">Sign Up</h1>
+				<p  class="letter2">Please fill this form to create an account.</p>	
+				<label for="Email"><b>Email</b></label><br>
+				<input type="text" placeholder="Enter Email" name="Email" required><br><br>
+				<label for="psw"><b>Password</b></label><br>
+				<input type="Password"  placeholder="Enter Password" id="Password" name="psw" required><br><br>
+				<label for="psw-repeat"><b>Repeat Password</b></label><br>
+				<input type="Password" placeholder="Repeat Password" id="Password" name="psw-repeat" required><br><br>
+				<label>
+					<input type="checkbox" onclick="view()"> Show Password
+				</label>
+				<label style="float: right;">
+				<input type="checkbox" checked="checked" name="remember">Remember me.
+				</label><br>
+				<div class="tandc">
+					<p>By creating an account you agree to our</p>
+					<a href="#" style="color: rgb(241, 21, 21)">Terms & Conditions.</a>
+				</div>
+				<div class="clearfix">
+					<button type="submit" class="btny">Sign Up</button>
+					<button type="button" class="cancelbtny">Cancel</button>
+				</div>
+				<div class="Nextpage">
+					<p class="TC"><strong>Existing Member? </strong><a href="Youthlogin.html"><b>|</b>Login Here<b>|</b></a></p>
+				</div><br>
+			</form>
+		</div>
 	</body>
 </html>
