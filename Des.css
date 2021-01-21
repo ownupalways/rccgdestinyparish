@@ -283,7 +283,6 @@ div{
   padding-left: 20px;
   display: none;
 }
-
 .payment{
   margin-left: 25px;
   display: none;
@@ -303,24 +302,6 @@ div{
 
 .region{
   display: none;
-}
-
-.car1{
-  position: relative;
-  animation: car1 2s;
-  animation-delay: 2s;
-}
-
-.car2{
-  position: relative;
-  animation: car2 2s;
-  animation-delay: 3s;
-}
-
-.car3{
-  position: relative;
-  animation: car3 2s;
-  animation-delay: 4s;
 }
 
 @media screen and (max-width:800px){
@@ -365,14 +346,11 @@ div{
   .batch{
     display: none;
   }
-  .batch ul .btn{
-    margin-left: 0px;
-  }
-
+  
   .payment{
-    margin-left: 50px;
+    margin-left: 85px;
+    display: none;
   }
-
   .zone{
     display: none;
   }
