@@ -14,7 +14,14 @@
         <link href='https://fonts.googleapis.com/css?family=Lucida Handwriting' rel='stylesheet'>
 	</head>
 	<body class="formbodysignup">
-		<a class=" YouthHome" href="index.html"><i class="fas fa-home"><span class="return"> Return to Church</span></i></a>
+		<div class="returnToChurch">
+			<a class="YouthHome" href="index.html">
+				<i class="sign fas fa-home"></i>
+				<span class="return"> 
+					 Return to Church
+				</span>
+			</a>
+		</div>
 		<div class="formfill">
 			<form class="FormOnecontent" action="action_page.php" style="border: 2px solid #ccc">
 				<h1 class="letter">Sign Up</h1>
@@ -25,22 +32,22 @@
 				<input type="Password"  placeholder="Enter Password" id="Password" name="psw" required><br><br>
 				<label for="psw-repeat"><b>Repeat Password</b></label><br>
 				<input type="Password" placeholder="Repeat Password" id="Password" name="psw-repeat" required><br><br>
-				<label>
+				<label style="color: white;">
 					<input type="checkbox" onclick="view()"> Show Password
 				</label>
-				<label style="float: right;">
+				<label style="float: right; color: white;">
 				<input type="checkbox" checked="checked" name="remember">Remember me.
 				</label><br>
 				<div class="tandc">
-					<p>By creating an account you agree to our</p>
+					<p style="color: white;">By creating an account you agree to our</p>
 					<a href="#" style="color: rgb(241, 21, 21)">Terms & Conditions.</a>
 				</div>
 				<div class="clearfix">
 					<button type="submit" class="btny">Sign Up</button>
 					<button type="button" class="cancelbtny">Cancel</button>
-				</div>
+				</div><br><br><br>
 				<div class="Nextpage">
-					<p class="TC"><strong>Existing Member? </strong><a href="Youthlogin.html"><b>|</b>Login Here<b>|</b></a></p>
+					<p class="TC"><strong style="color: white;">Existing Member? </strong><a href="Youthlogin.html" target="_blank" style="color: white;"><b>|</b>Login Here<b>|</b></a></p>
 				</div><br>
 			</form>
 		</div>

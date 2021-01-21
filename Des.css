@@ -774,7 +774,7 @@ h1{
   background-color:  rgb(215, 213, 230);
    border-radius: 8px;
 }
-.YouthGateTop, {
+.YouthGateTop {
   text-align: center;
 }
 
@@ -908,6 +908,19 @@ footer{
 .FormOnecontent{
   border-radius:10px;
 }
+.YouthHome>i,span{
+  float:right;
+  font-size: 25px;
+  color: white; 
+}
+.return{
+  font-size: 15px;
+  padding-top: .7pc;
+}
+.YouthHome:hover >i,span {
+  cursor: pointer;
+  opacity: .5;
+}
 
 .formfill{
   width: 30%; 
@@ -918,23 +931,17 @@ footer{
   z-index: 2;
 }
 
-.YouthHome{
-  float:right;
-  font-size: 30px;
-}
-
-.YouthHome: hover{
-  color: #f1f1f1;
-}
 .FormOnecontent .letter{
   font-size: 30px;
   padding-bottom: 15px;
   text-align: center;
+  color: white;
 }
 
 .FormOnecontent .letter2{
   font-size: 15px;
   text-align: center;
+  color: white;
 }
 input[type=text], input[type=password], input[type=password] {
   padding: 10px;
@@ -966,15 +973,14 @@ form {
 }
 
 .TC{
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bolder;
-  padding: 15px;
   text-align: center;
 }
+ b{
+  color: white;
+ }
 
-.Nextpage{
-  text-align: center;
-}
 /*Float cancel and Sign up buttons and add an equal width*/
 .cancelbtny, .btny{
   width: 180px;
@@ -982,6 +988,7 @@ form {
   font-family: OptimusPrinceps;
   font-weight: bolder;
   background:transparent;
+  color: white;
 }
 
 .cancelbtnyLongin, .btnyLogin{
@@ -990,6 +997,7 @@ form {
   font-family: OptimusPrinceps;
   font-weight: bolder;
   background:transparent;
+  color: white;
 }
 .btny, .btnyLogin{
   float:left;
@@ -1062,10 +1070,6 @@ form {
       padding-left: 10px;
     }
 
-    .TC a{
-      font-size: 20px;
-      overflow-wrap: break-word;
-    }
     /*Float cancel and Sign up buttons and add an equal width*/
     .cancelbtny, .btny{
       width: 100px;

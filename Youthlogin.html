@@ -9,12 +9,17 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Monotype Corsiva' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Cambria' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=OptimusPrinceps' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Californian FB' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Lucida Handwriting' rel='stylesheet'>
 	</head>
 	<body class="formbodylogin">
-		<a class="YouthHome" href="index.html"><i class="sign fas fa-home"><span class="return"> Return to Church</span></i></a>
+		<a class="YouthHome" href="index.html">
+			<i class="sign fas fa-home">
+				<span class="return"> 
+					Return to Church
+				</span>
+			</i>
+		</a>
 		<div id="formfill" class="formfill">
 			<form class="FormOnecontent" action="action_page.php" style="border: 2px solid #ccc">
 				<h2  class="letter">You are Welcome!</h2>
@@ -23,15 +28,17 @@
 				<input type="text" placeholder="Enter Email/Username" name="Username" required><br><br>
 				<label for="psw"><b>Password</b></label><br>
 				<input type="Password" placeholder="Enter Password" id="Pword" name="psw" required><br><br>
-				<input type="checkbox" onclick="viewLogin()">Show Password
-				<label style="float: right;">
+				<label style="color: white;">
+				<input type="checkbox" onclick="viewLogin()"> Show Password
+				</label>
+				<label style="float: right; color: white;">
 				<input type="checkbox" checked="checked" name="remember"> Remember me.
 				</label><br>
 				<div class="tandc">
 					<button type="submit" class="btnyLogin">Login</button>
 					<button type="button" class="cancelbtnyLongin">Cancel</button>
 				</div><br><br><br>
-				<p class="TC"><strong>New Member? </strong><a href="Signupyouth.html"><b>|</b>Signup Here<b>|</b></a></p>
+				<p class="TC"><strong style="color: white;">New Member? </strong><a href="Signupyouth.html" target="_blank" style="color: white;"><b>|</b>Signup Here<b>|</b></a></p><br>
 			</form>
 		</div>
 	</body>
